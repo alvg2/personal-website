@@ -6,7 +6,8 @@ title: Resume
 
 ### Full Resume
 
-For personal privacy and safety, please see my Full Resume on LinkedIn: LinkedIn Linked
+For personal privacy and safety, please see my Full Resume on LinkedIn (link below): LinkedIn Link
+<p><strong>LinkedIn Link</strong> <a href="https://www.linkedin.com/" </a></p
 
 
 
