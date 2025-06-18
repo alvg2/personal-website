@@ -21,6 +21,8 @@ author: Alex V. Personal Website
 
 navbar-links:
   About Me: "aboutme"
+  Projects: "projects"
+  Resume: "resume"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
