@@ -20,7 +20,7 @@ Projects: RSA encryption project, Data Structure project
 
 ### Education
 
-## Bachelor of Science in Computer Science
+#### Bachelor of Science in Computer Science
  University of Colorado Boulder | Expected Graduation: 5/2026
 
 
