@@ -24,9 +24,10 @@ navbar-links:
   About Me: "aboutme"
   Contact Info: "contact_info"
   Projects: "projects"
-  Technical_skills: "technical_skills"
-  Education: "education"
-  Resume: "resume"
+  Resume:
+    - Education: "education"
+    - Technical Skills: "technical_skills"
+    - Full Resume: "resume"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
