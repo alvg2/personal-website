@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Resume
-subtitle: (About the author)
 ---
 
 
