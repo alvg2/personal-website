@@ -3,7 +3,7 @@ layout: page
 title: Projects
 ---
 
-### Personal Porjects
+### Personal Projects
 
 #### - RSA Encryption Project (Discrete Structures)
 #### - Data Structure Visualization Project
