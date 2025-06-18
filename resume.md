@@ -1,13 +1,13 @@
 ---
 layout: page
-title: About me
+title: Resume
 subtitle: (About the author)
 ---
 
 
-Hello there! I'm a Computer Science student at the University of Colorado Boulder. I'm fascinated by how software can solve real-world problems and am especially interested about data analysis and learning new technologies.
+### Full Resume
 
-Right now, I'm diving deeper into building scalable web applications and exploring different machine learning algorithms. I love the challenge of bringing an idea from concept to a working product.
+For personal privacy and safety, please see my Full Resume on LinkedIn: LinkedIn Linked
 
 
 
