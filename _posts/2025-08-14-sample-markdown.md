@@ -4,7 +4,7 @@ title: Data Structures and Algorithm Visualization Toolkit Project
 subtitle: Personal Project / Study Guide
 comments: false
 mathjax: false
-author: Alex Vargas
+author: Alex V.
 ---
 
 {: .box-success}
