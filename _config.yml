@@ -101,11 +101,12 @@ rss-description: This website is a virtual proof that I'm awesome
 
 # Select which social network share links to show in posts
 share-links-active:
-  #twitter: true
+  # twitter: true
   twitter: false
-  #facebook: true
+  # facebook: true
   facebook: false
-  linkedin: true
+  # linkedin: true
+  linkedin: false
   vk: false
   reddit: false
 
