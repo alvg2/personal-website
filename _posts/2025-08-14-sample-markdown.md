@@ -10,7 +10,6 @@ author: Alex Vargas
 {: .box-success}
 In this project, I developed a toolkit that implements and visualizes the most fundamental data structures and algorithms – specifically arrays, multidimensional arrays, bubble sort, merge sort, and binary search trees (search, delete, insert). My goal was to use Python and Jupyter Notebooks to create a comprehensive toolkit that can be used as a reference and as a study guide for data structures and algorithms.
 
-**Here is some bold text**
 
 ## Data Structure and Algorithm Visualization Project
 
