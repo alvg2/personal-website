@@ -28,9 +28,9 @@ navbar-links:
     - Education: "education"
     - Technical Skills: "technical_skills"
     - Full Resume: "resume"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+#  Resources:
+#    - Beautiful Jekyll: "https://beautifuljekyll.com"
+#    - Learn markdown: "https://www.markdowntutorial.com/"
  
 
 ################
