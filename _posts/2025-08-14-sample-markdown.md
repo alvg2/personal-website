@@ -11,90 +11,81 @@ author: Alex
 ---
 
 {: .box-success}
-This is a demo post to show you how to write blog posts with markdown.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](https://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/tables/etc.<br/>I also encourage you to look at the [code that created this post](https://raw.githubusercontent.com/daattali/beautiful-jekyll/master/_posts/2020-02-28-sample-markdown.md) to learn some more advanced tips about using markdown in Beautiful Jekyll.
+In this project, I developed a toolkit that implements and visualizes the most fundamental data structures and algorithms – specifically arrays, multidimensional arrays, bubble sort, merge sort, and binary search trees (search, delete, insert). My goal was to use Python and Jupyter Notebooks to create a comprehensive toolkit that can be used as a reference and as a study guide for data structures and algorithms.
 
 **Here is some bold text**
 
-## Here is a secondary heading
+## Data Structure and Algorithm Visualization Project
 
-[This is a link to a different site](https://deanattali.com/) and [this is a link to a section inside this page](#local-urls).
+Project report:  <a href="#" onclick="downloadPdf1(event)" download="My_Project_Report.pdf">Download Project Report PDF (Link)</a>
+<body>
 
-Here's a table:
+    <script>
+        function downloadPdf1(event) {
+            // Prevent the default link behavior for the pdf (force downloading, prevent opening)
+            if (event) {
+                event.preventDefault();
+            }
 
-| Number | Next number | Previous number |
-| :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
+            // File path
+            const pdfUrl = 'https://alvg2.github.io/datastructureproject/pdfs/Project_Report.pdf'; 
 
-You can use [MathJax](https://www.mathjax.org/) to write LaTeX expressions. For example:
-When \\(a \ne 0\\), there are two solutions to \\(ax^2 + bx + c = 0\\) and they are $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+            // Desired filename for download
+            const suggestedFileName = 'My_Project_Report.pdf'; 
 
-How about a yummy crepe?
+            // Create a temporary anchor element
+            const link = document.createElement('a');
+            link.href = pdfUrl;
+            link.download = suggestedFileName; // Set the download attribute
 
-![Crepe](https://beautifuljekyll.com/assets/img/crepe.jpg)
+            // Append to the body (not strictly necessary for click() but good practice)
+            document.body.appendChild(link);
 
-It can also be centered!
+            // Programmatically click the link to trigger the download
+            link.click();
 
-![Crepe](https://beautifuljekyll.com/assets/img/crepe.jpg){: .mx-auto.d-block :}
+            // Clean up: remove the temporary link
+            document.body.removeChild(link);
+        }
+    </script>
+</body>
+- to open enter the following twice: v23GhQkp#cBf!@P!
 
-Here's a code chunk:
+Project printout:  <a href="#" onclick="downloadPdf2(event)" download="Project_Printout.pdf">Download Project Printout PDF (Link)</a>
+<body>
 
-~~~
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-~~~
+    <script>
+        function downloadPdf2(event) {
+            // Prevent the default link behavior for the pdf (force downloading, prevent opening)
+            if (event) {
+                event.preventDefault();
+            }
 
-And here is the same code with syntax highlighting:
+            // File path
+            const pdfUrl = 'https://alvg2.github.io/datastructureproject/pdfs/Project_Printout.pdf'; 
 
-```javascript
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-```
+            // Desired filename for download
+            const suggestedFileName = 'My_Project_Printout.pdf'; 
 
-And here is the same code yet again but with line numbers:
+            // Create a temporary anchor element
+            const link = document.createElement('a');
+            link.href = pdfUrl;
+            link.download = suggestedFileName; // Set the download attribute
 
-{% highlight javascript linenos %}
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-{% endhighlight %}
+            // Append to the body (not strictly necessary for click() but good practice)
+            document.body.appendChild(link);
 
-## Boxes
-You can add notification, warning and error boxes like this:
+            // Programmatically click the link to trigger the download
+            link.click();
 
-### Notification
+            // Clean up: remove the temporary link
+            document.body.removeChild(link);
+        }
+    </script>
+</body>
+- to open enter the following twice: qcLFUS6p&t9d$tEV
 
-{: .box-note}
-**Note:** This is a notification box.
+Also, you can find these links in my Project Website: [Project Website Link](https://alvg2.github.io/datastructureproject/)
 
-### Warning
 
-{: .box-warning}
-**Warning:** This is a warning box.
 
-### Error
-
-{: .box-error}
-**Error:** This is an error box.
-
-## Local URLs in project sites {#local-urls}
-
-When hosting a *project site* on GitHub Pages (for example, `https://USERNAME.github.io/MyProject`), URLs that begin with `/` and refer to local files may not work correctly due to how the root URL (`/`) is interpreted by GitHub Pages. You can read more about it [in the FAQ](https://beautifuljekyll.com/faq/#links-in-project-page). To demonstrate the issue, the following local image will be broken **if your site is a project site:**
-
-![Crepe](/assets/img/crepe.jpg)
-
-If the above image is broken, then you'll need to follow the instructions [in the FAQ](https://beautifuljekyll.com/faq/#links-in-project-page). Here is proof that it can be fixed:
-
-![Crepe]({{ '/assets/img/crepe.jpg' | relative_url }})
-
-<details markdown="1">
-<summary>Click here!</summary>
-Here you can see an **expandable** section
-</details>
