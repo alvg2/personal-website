@@ -10,5 +10,4 @@ Programming Languages: C++, Python, Scala, Java
 
 Tools: Git, VS Code, Jupyter Notebooks
 
-Projects: RSA encryption project, Data Structure and Algorithm Project, Visualization Project (Python Matplotlib)
-
+Projects: RSA Encryption Project, Data Structure and Algorithm Visualization Project (using Python Matplotlib)
