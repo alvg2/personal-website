@@ -2,12 +2,9 @@
 layout: post
 title: Data Structures and Algorithm Visualization Toolkit Project
 subtitle: Personal Project / Study Guide
-gh-repo: daattali/beautiful-jekyll
-gh-badge: [star, fork, follow]
-tags: [test]
-comments: true
-mathjax: true
-author: Alex
+comments: false
+mathjax: false
+author: Alex Vargas
 ---
 
 {: .box-success}
